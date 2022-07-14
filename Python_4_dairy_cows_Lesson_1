@@ -1,0 +1,34 @@
+import datetime, math, os, re, sys, tkinter
+from datetime import date, datetime
+from tkinter import simpledialog
+from tkinter.simpledialog import askstring
+!apt-get install -y xvfb # Install X Virtual Frame Buffer
+os.system('Xvfb :1 -screen 0 1600x1200x16  &')
+os.environ['DISPLAY']=':1.0'    # tell X clients to use our virtual DISPLAY :1.0
+
+today = date.today()
+
+gruppo = str(input("Scegli il GRUPPO di bovine (<F> per freschissime, <f> per fresche, <s> per stanche)"))
+print(gruppo)
+if gruppo == 'F' or gruppo == 'f' or gruppo == 's':
+    print('GRUPPO di bovine <%s> inserito con SUCCESSO!' % gruppo)
+    print('')
+else:
+    print('ERRORE: prova a reinserire il gruppo!')    
+if gruppo == 'F':
+    print('La RAZIONE sarà calcolata per il GRUPPO <freschissime>!')
+    print('(1^-9^ settimana di lattazione)')
+    print('')
+    print('<SETTIMANA DI GRAVIDANZA> impostata a 0 (zero)')
+elif gruppo == 'f':
+    print('La RAZIONE sarà calcolata per il GRUPPO <fresche>!')
+    print('(10^-20^ settimana di lattazione)')
+    print('')
+elif gruppo == 's':
+    print('La RAZIONE sarà calcolata per il GRUPPO <stanche>!')
+    print('(dalla 21^ settimana di lattazione)')
+    print('')
+peso_bovina = float(input("Inserisci il peso medio di un gruppo omogeneo di animali (in kg)"))
+if type(peso_bovina) == float:
+  print("Hai inserito con successo il peso medio delle bovine in lattazione")
+  print("peso medio bovine in lattazione %f" % peso_bovina)

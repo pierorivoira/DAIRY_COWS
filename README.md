@@ -19,7 +19,7 @@ GNU/Linux
 
 ISTRUZIONI PER L'INSTALLAZIONE: UBUNTU 18.xx
 
- python3-pip python3-tk python3-pil python3-pil.imagetk libjpeg-dev zlib1g-dev
+$ python3-pip python3-tk python3-pil python3-pil.imagetk libjpeg-dev zlib1g-dev
 $ pip3 install matplotlib
 
 

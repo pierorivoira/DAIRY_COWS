@@ -22,3 +22,7 @@ ISTRUZIONI PER L'INSTALLAZIONE
 $ tar -xvzf PYR_LINUX.tar.gz
 $ sudo apt install python3-pillow python3-mysql-connector-python python3-mysql.connector python3-reportlab python3-tk python3-imaging-tk python3-pil.imagetk python3-matplotlib python3-html_table_parser html-table-parser-python3 python3-pandas
 
+PER LANCIARE IL PROGRAMMA
+
+$ cd /PYR/LINUX
+$ python3 programmarazione.py

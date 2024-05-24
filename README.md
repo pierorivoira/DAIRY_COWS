@@ -27,6 +27,6 @@ PER LANCIARE IL PROGRAMMA
 
 $ cp -r Scaricati/PYR ~
 
-$ cd /PYR/LINUX
+$ cd PYR/LINUX
 
 $ python3 programmarazione__ubuntu_23.xx.py

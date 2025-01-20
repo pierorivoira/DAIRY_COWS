@@ -14,7 +14,7 @@ Per valorizzare le produzioni aziendali l'utente ha, inoltre, la possibilità di
 
 REQUISITI DI SISTEMA
 
-GNU/Linux (Ubuntu 23.04 o superiore)
+GNU/Linux (Ubuntu 22.04 o superiore)
 
 
 ISTRUZIONI PER L'INSTALLAZIONE

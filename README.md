@@ -25,6 +25,7 @@ $ tar -xvzf PYR_LINUX.tar.gz
 $ sudo apt install python3-mysql.connector python3-reportlab python3-tk python3-pil.imagetk python3-matplotlib python3-pandas vlc
 
 PER LANCIARE IL PROGRAMMA
+
 $ cd
 
 $ cp -r Scaricati/PYR ~

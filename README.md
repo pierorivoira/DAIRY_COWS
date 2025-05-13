@@ -26,6 +26,7 @@ $ sudo apt install python3-mysql.connector python3-reportlab python3-tk python3-
 
 PER LANCIARE IL PROGRAMMA
 $ cd
+
 $ cp -r Scaricati/PYR ~
 
 $ cd ~/PYR/LINUX
